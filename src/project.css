@@ -1,0 +1,361 @@
+.header{
+    width:100%;
+    height:80px;
+    background-color: #fff;
+    display:border-box;
+}
+
+.header img{
+    width:70px;
+    height:auto;
+}
+.try{
+    display: inline;
+}
+.title{
+    display: block;
+    text-align: center;
+    margin-top: 28px;
+  font-weight: 600;
+  font-size: 20px;
+    z-index: 1;
+}
+
+.status{
+    position: absolute;
+  z-index: 2;
+  font-size: 18px;
+  top:25px;
+  right: 20px;
+}
+
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flexbox>div{
+    position: relative;
+    border-radius: 25px;
+    border: 2px solid lightgrey;
+    box-shadow: 6px 9px #888888;
+    width: 700px;
+    height:270px;
+    margin: 1%;
+}
+
+.flexbox>div:hover{
+    background-color:floralwhite;
+    cursor: pointer;
+}
+
+.restName{
+    padding-top:20px;
+    font-weight: bold;
+    font-size:15pt;
+    margin-bottom: 15px;
+}
+.avatar img{
+    object-fit: cover;
+    padding:25px 20px; 
+   float:left;
+   width: 215px;
+   height:270px;
+}
+.dist{
+}
+.distance{
+    font-size: 10pt;
+    display: inline;
+    
+}
+.logo
+{ position: absolute;
+    float:left;
+    top:13;
+    right: 70;
+    width:50px;
+}
+.fa-heart{
+    position: absolute;
+    bottom:16;
+    right:20;
+}
+.ddis{
+    margin-top: 12px;
+}
+.restLoc{
+    display:inline;
+    margin-left: 4px;
+}
+.search-bar{
+    text-align: center;
+    margin-bottom: 15px;
+    position:relative;
+}
+.fa-search{
+    margin-right: 2%;
+}
+.search-bar input {
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 18px;
+  padding: 10px 8px;
+  width: 50%;
+  border:0;
+  background-color: lightgray;
+}
+.search-bar:focus, input:focus{
+    outline: none;
+}
+
+select{
+    height:30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.Logout{
+    background-color: lightgray;
+    border: none;
+    margin-top: 3px;
+    margin-left: 10px;
+    height:25px;
+    border-radius: 4px;
+    cursor:pointer;
+}
+.fa-filter,.fa-map-marked-alt,.fa-house-user{
+    margin-left: 13px;
+    cursor:pointer;
+}
+.buttonLine{
+    justify-content: center;
+    text-align: center;
+}
+.buttonLine button{
+    font-style: italic;
+    width: 220px;
+    background-color: #CDCDCD;
+    border-radius: 10px;
+    padding:5px 10px;
+    margin: 3px;
+    font-size: 10.5pt;
+}
+button{
+    cursor: pointer;
+    outline:none;
+}
+.back{
+    position: absolute;
+    top:10px;
+    left:-5px;
+    background-color: lightgray;
+    border: none;
+    height:30px;
+    border-radius: 4px;
+    cursor:pointer;
+}
+.back:hover{
+    background-color: #A4A4A4;
+}
+
+.singleRestaurants{
+    padding-bottom:40px;
+    padding-left: 50px;
+    margin:5%;
+    position: relative;
+    font-family: 'Playfair Display', serif;
+}
+.singleRestaurants h1{
+    text-align:center;
+}
+.singleRestImg Img{
+    object-fit: cover;
+    padding-top:25px;
+    padding-right: 50px;
+   float:left;
+    width:50%;
+   max-width: 600px;
+    max-height: 400px;
+    min-height:380px;
+}
+.singleRestStar{
+    font-size:1.6em;
+    display: inline;
+}
+.singleRestStart{
+    margin-top:4%;
+}
+.good, .bad{
+    float: left;
+    margin-right: 20px;
+    padding-top: 10px;
+}
+.comments{
+}
+.commentss{
+    font-size: 18pt;
+    display: inline;
+}
+
+.commentTexts {
+    margin-bottom:10px;
+    margin-top: 5px;
+    font-size: 12pt;
+}
+.commentForm{
+    box-shadow: 7px 7px 5px #E6E6E6;
+    border: 3px solid lightgrey;
+    text-align: center;
+    justify-content: center;
+    width: 65%;
+    height: 430px;
+    margin-bottom: 20px;
+}
+.addTopic{ height:30px;
+    width:300px;
+border-radius: 4px;}
+
+.addComment{
+   width:80%;
+    height:160px;
+    border-radius: 4px;
+    resize: none;
+    margin-bottom: 10px;
+}
+.commentForm input{
+    font-size: 15px;
+}
+.commentForm textarea{
+    font-size: 15px;
+}
+.addEmoji{
+    margin-right:10px;
+}
+.addButton{
+    margin-top: 13px;
+    height: 25px;
+}
+.secondPart{
+    position: absolute;
+    top:107%;
+}
+.mapContainerB {
+    margin-bottom: 30px;
+    text-align: center;
+    border:5px solid black;
+position: relative;
+    width:90%;
+max-width:800px;
+    height:500px;
+}
+.fa-heart{
+    cursor: pointer;
+}
+
+.mapContainer{
+    width: 1200px;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    color: #404040;
+    font: 500 20px/26px 'Helvetica Neue', Helvetica, Arial, Sans-serif;
+    border: 4px solid #C3BFBF;
+}
+
+mapContainer * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+     box-sizing: border-box;
+}
+.mapContainer .sidebar{
+    height: 83%;
+    width: 33%
+}
+
+.mapContainer .map{
+    height: 100%;
+    width: 67%
+}
+
+.heading {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 10px;
+}
+
+.listings {
+  height: 100%;
+  overflow: auto;
+  padding-bottom: 60px;
+}
+
+.listings .item {
+  display: block;
+  border-bottom: 1px solid #eee;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.listings .item:last-child { border-bottom: none; }
+
+.listings .item .title {
+  display: block;
+  color: #00853e;
+  font-weight: 700;
+}
+
+.listings .item .title small { font-weight: 400; }
+
+.listings .item.active .title,
+.listings .item .title:hover { color: #8cc63f; }
+
+.listings .item.active {
+  background-color: #f8f8f8;
+}
+
+.heading h1{
+    font-size: 22px;
+    margin: 0;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 20px 2px;
+}
+
+.container{
+    box-shadow: 10px 10px 7px #E6E6E6;
+    border: 3px solid lightgrey;
+    position:absolute;
+    text-align: center;
+    justify-content: center;
+        top:20%;
+        right: 17%;
+    padding:20px;
+    padding-bottom: 40px;
+}
+.form-control {
+    font-size:14pt;
+    width:400px;
+    justify-content: center;
+    text-align: center;
+}
+.homeLocationMap{
+text-align: center;
+}
+.mapContainerC {
+     margin-bottom: 30px;
+    text-align: center;
+    border:5px solid black;
+position: relative;
+    width:90%;
+max-width:800px;
+    height:500px;
+}
+.saveHome{
+    margin-bottom: 5px;
+}
